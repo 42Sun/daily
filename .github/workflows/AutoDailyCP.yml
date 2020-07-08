@@ -6,10 +6,10 @@
 
 name: AutoDailyCP
 on:
-  #  push:
-  #    branches: 
-  #      - master
-   schedule:
+  push:
+    branches: 
+      - master
+  schedule:
     - cron: "*/15 * * * *"
 jobs:
   build:
